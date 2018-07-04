@@ -1,54 +1,54 @@
 .navbar-light .navbar-toggler{
-    border-color: transparent;
+	border-color: transparent;
 }
 header {
-    height: 10%;
-    background-color: transparent;
+	height: 10%;
+	background-color: transparent;
 }
 html,body{
-    height:100%;
-    font-family: 'Open Sans', sans-serif;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
 }
 .carousel,.item,.active{
-    height:100%;
+	height:100%;
 }
 .carousel-inner{
-    height:100%;
+	height:100%;
 }
 .fill{
-    width: 100vw;
-    height: 100vh;
-    background-position:center;
-    background-size:    cover;
-    max-width: 100%;
+	width: 100vw;
+	height: 100vh;
+	background-position:center;
+	background-size:    cover;
+	max-width: 100%;
 }
 #first-slide{
-    background-image: url("../img/full/32.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    width: 100vw;
-    height: 100vh;
+	background-image: url("../img/full/32.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* background-position: center; */
+	width: 100vw;
+	height: 100vh;
 }
 #second-slide{
-    background-image: url("../img/full/28.jpg");
+	background-image: url("../img/full/28.jpg");
 }
 #third-slide{
-    background-image: url("../img/full/35.jpg");
+	background-image: url("../img/full/35.jpg");
 }
 h5{
-    letter-spacing: 1px;
+	letter-spacing: 1px;
 }
 .card{
 	width: 18rem;
 }
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    #first-slide{
-        background-image: url("../img/full/32.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-		}
+	/* For mobile phones: */
+	#first-slide{
+		background-image: url("../img/full/32.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 }  
 #progressbar1{
 	width: 55%;
@@ -63,26 +63,26 @@ h5{
 	width: 70%;
 }
 .price-card{
-    border-top: 5px solid black;
-    border-right: 0 solid transparent;
-    border-left: 0 solid transparent;
-    border-bottom: 0 solid transparent; 
-    text-decoration: none;
+	border-top: 5px solid black;
+	border-right: 0 solid transparent;
+	border-left: 0 solid transparent;
+	border-bottom: 0 solid transparent; 
+	text-decoration: none;
 }
 .price-card-gold{
-    border-top: 5px solid #c7a674;
-    border-right: 0 solid transparent;
-    border-left: 0 solid transparent;
-    border-bottom: 0 solid transparent;
-    text-decoration: none;
+	border-top: 5px solid #c7a674;
+	border-right: 0 solid transparent;
+	border-left: 0 solid transparent;
+	border-bottom: 0 solid transparent;
+	text-decoration: none;
 }
 .gold{
-    color: #c7a674;
+	color: #c7a674;
 }
 #background-gold {
-    background-color: #c7a674;
-    text-decoration: none;
+	background-color: #c7a674;
+	text-decoration: none;
 }
 footer{
-    font-size: 0.75em;
+	font-size: 0.75em;
 }
