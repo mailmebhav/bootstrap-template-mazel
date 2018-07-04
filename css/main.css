@@ -16,7 +16,7 @@ html,body{
     height:100%;
 }
 .fill{
-    width: 100vw;;
+    width: 100vw;
     height: 100vh;
     background-position:center;
     background-size:    cover;
@@ -61,4 +61,25 @@ h5{
 }
 #progressbar4{
 	width: 70%;
+}
+.price-card{
+    border-top: 5px solid black;
+    border-right: 0 solid transparent;
+    border-left: 0 solid transparent;
+    border-bottom: 0 solid transparent; 
+}
+.price-card-gold{
+    border-top: 5px solid #c7a674;
+    border-right: 0 solid transparent;
+    border-left: 0 solid transparent;
+    border-bottom: 0 solid transparent;
+}
+.gold{
+    color: #c7a674;
+}
+#background-gold {
+    background-color: #c7a674;
+}
+footer{
+    font-size: 0.75em;
 }
