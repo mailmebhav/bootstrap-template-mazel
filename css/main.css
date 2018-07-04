@@ -1,0 +1,64 @@
+.navbar-light .navbar-toggler{
+    border-color: transparent;
+}
+header {
+    height: 10%;
+    background-color: transparent;
+}
+html,body{
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.carousel,.item,.active{
+    height:100%;
+}
+.carousel-inner{
+    height:100%;
+}
+.fill{
+    width: 100vw;;
+    height: 100vh;
+    background-position:center;
+    background-size:    cover;
+    max-width: 100%;
+}
+#first-slide{
+    background-image: url("../img/full/32.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    width: 100vw;
+    height: 100vh;
+}
+#second-slide{
+    background-image: url("../img/full/28.jpg");
+}
+#third-slide{
+    background-image: url("../img/full/35.jpg");
+}
+h5{
+    letter-spacing: 1px;
+}
+.card{
+	width: 18rem;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #first-slide{
+        background-image: url("../img/full/32.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+		}
+}  
+#progressbar1{
+	width: 55%;
+}
+#progressbar2{
+	width: 80%;
+}
+#progressbar3{
+	width: 40%;
+}
+#progressbar4{
+	width: 70%;
+}
