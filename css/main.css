@@ -117,3 +117,6 @@ h5{
 footer{
 	font-size: 0.75em;
 }
+.no-decoration {
+	text-decoration: none !important;
+}
