@@ -14,14 +14,14 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 	<script src="js/main.js"></script>
 </head>
-<body> 
+<body>
 	<header class="fixed-top">
 		<nav class="navbar navbar-expand-sm navbar-light bg-transparent">
 			<div class="container">
 				<a class="navbar-brand" href="#">
 					<img src="img/logo/logo-light.png" alt="Mezel Logo">
 				</a><!--End of navbar-brand-->
-				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarnav">
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarnav" aria-controls="navbarnav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon">
 					</span><!--End of navbar-toggler-icon-->
 				</button><!--End of navbar-toggler-->
@@ -86,15 +86,17 @@
 			<span class="sr-only">Next</span>
 		</a><!--End of carousel-control-next-->
 	</div><!--End of carousel-->
-	<section id="about" class="m-2">
+	<section id="about" class="mt-3">
 		<p class="display-4 text-center text-uppercase">
 			<span class="font-weight-bold">About</span> Studio
 		</p>
-		<blockquote class="text-center mx-1 ">
-			<p>
-				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam.
-			</p>
-		</blockquote>
+		<div>
+			<blockquote class="text-center">
+				<p>
+					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam.
+				</p>
+			</blockquote>
+		</div>
 		<div class="container">
 			<div class="row">
 				<div class="col-sm text-center w-100">
@@ -136,7 +138,7 @@
 	<section class="bg-dark m-2 p-4">
 		<blockquote class="text-center">
 			<p class="text-white">
-				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam.	
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam aperiam.
 			</p>
 			<button class="btn btn-color">
 				Download
@@ -183,7 +185,7 @@
 							<div class="card-body">
 								<h5 class="card-title text-uppercase">
 									Michael Lee
-								</h5> 
+								</h5>
 								<p class="card-text text-mute">Web Developer</p>
 							</div><!--End of card-body-->
 						</div><!--End of carousel-item-->
@@ -218,36 +220,36 @@
 			</div><!--End of row-->
 		</div><!--End of container-fluid-->
 	</section>
-	<section class="skills pt-3">
+	<section class="skills py-3">
 		<p class="display-4 text-uppercase text-center">
 			<span class="font-weight-bold">Skills</span>
-    </p>
-    <div class="mx-auto skillbars">
-      <p class="mb-2 text-center">
-        DESIGN
-      </p>
-      <div class="progress m-2">
-        <div id="progressbar1" class="progress-bar-striped progress-bar-animated bg-dark text-white text-center" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
-      </div>
-      <p class="mb-2 text-center">
-        DEVELOPMENT
-      </p>
-      <div class="progress m-2">
-        <div id="progressbar2" class="progress-bar-striped progress-bar-animated bg-dark text-white text-center" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-      </div>
-      <p class="mb-2 text-center">
-        PHOTOGRAPHY
-      </p>
-      <div class="progress m-2">
-        <div id="progressbar3" class="progress-bar-striped progress-bar-animated bg-dark text-white text-center" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
-      </div>
-      <p class="mb-2 text-center">
-        BRANDING
-      </p>
-      <div class="progress m-2">
-        <div id="progressbar4" class="progress-bar-striped progress-bar-animated bg-dark text-white text-center" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
-      </div>
-    </div>
+		</p>
+		<div class="mx-auto skillbars">
+			<p class="mb-2 text-center">
+				DESIGN
+			</p>
+			<div class="progress m-2">
+				<div id="progressbar1" class="progress-bar-striped progress-bar-animated bg-dark text-white text-center" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+			</div>
+			<p class="mb-2 text-center">
+				DEVELOPMENT
+			</p>
+			<div class="progress m-2">
+				<div id="progressbar2" class="progress-bar-striped progress-bar-animated bg-dark text-white text-center" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+			</div>
+			<p class="mb-2 text-center">
+				PHOTOGRAPHY
+			</p>
+			<div class="progress m-2">
+				<div id="progressbar3" class="progress-bar-striped progress-bar-animated bg-dark text-white text-center" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+			</div>
+			<p class="mb-2 text-center">
+				BRANDING
+			</p>
+			<div class="progress m-2">
+				<div id="progressbar4" class="progress-bar-striped progress-bar-animated bg-dark text-white text-center" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+			</div>
+		</div>
 	</section>
 	<section id="testimonials" class="bg-dark m-0 mt-2 p-4">
 		<blockquote class="text-center">
@@ -283,19 +285,19 @@
 				<div class="col-sm w-100 text-center mb-2">
 					<i class="fas fa-cogs fa-4x"></i>
 					<h4 class="text-uppercase mt-1">
-						Development	
+						Development
 					</h4>
 				</div>
 				<div class="col-sm w-100 text-center mb-2">
 					<i class="fas fa-check fa-4x"></i>
 					<h4 class="text-uppercase mt-1">
-						Testing	
+						Testing
 					</h4>
 				</div>
 				<div class="col-sm w-100 text-center mb-2">
 					<i class="fas fa-truck fa-4x"></i>
 					<h4 class="text-uppercase mt-1">
-						Delivery	
+						Delivery
 					</h4>
 				</div>
 			</div>
@@ -471,7 +473,7 @@
 					<div class="card-body">
 						<h5 class="card-title text-uppercase font-weight-bold mx-auto">						Regular
 						</h5>
-						
+
 						<span>
 							$
 						</span>
@@ -508,7 +510,7 @@
 					<div class="card-body">
 						<h5 class="card-title text-uppercase mx-auto font-weight-bold">						Standard
 						</h5>
-						
+
 						<span>
 							$
 						</span>
@@ -545,7 +547,7 @@
 					<div class="card-body">
 						<h5 class="card-title text-uppercase mx-auto">						Advanced
 						</h5>
-						
+
 						<span>
 							$
 						</span>
@@ -597,7 +599,7 @@
 			</div>
 			<div class="form-group">
 				<input type="text" class="form-control" id="message" placeholder="Your Message">
-			</div>	
+			</div>
 			<button type="submit" id="background-gold" class="btn btn-link text-white">Submit</button>
 		</form>
 	</section>
@@ -645,11 +647,11 @@
 			</p>
 		</div>
 		<div class="text-center">
-      <i class="fab fa-facebook fa-2x pr-2"></i>
-      <i class="fab fa-twitter fa-2x pr-2"></i>
-      <i class="fab fa-google-plus-square fa-2x pr-2"></i>
-      <i class="fab fa-linkedin fa-2x pr-2"></i>        
+			<i class="fab fa-facebook fa-2x pr-2"></i>
+			<i class="fab fa-twitter fa-2x pr-2"></i>
+			<i class="fab fa-google-plus-square fa-2x pr-2"></i>
+			<i class="fab fa-linkedin fa-2x pr-2"></i>
 		</div>
 	</footer>
 </body>
-</html>	
+</html>
